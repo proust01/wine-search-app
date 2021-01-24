@@ -11,7 +11,8 @@ This app is React / Node.js wine search application.
 
 For first task, it started with using Node.js and Express libraries. <br>
 Basically, It's used a MVC design pattern. from the repositories, you will see Model, View(Frontend), Controller(routers).<br>
-It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.(Ex. /api/breakdown/year/{lotCode} )
+It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
+<br>(Ex. /api/breakdown/year/{lotCode} )
 
 
 # Getting Started with Wine Search App (Backend)
@@ -26,7 +27,7 @@ Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 
-### `npm test`
+### `test with APIs`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
