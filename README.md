@@ -22,7 +22,7 @@ It has one model(productModel) and 2 routers (breakdown, product). They're all d
 
 
 ### `Edit Page with MongoDB`
-On top of Task Requirements, I added Edit Page for Edit current Wine data.\
+On top of Task Requirements, I added Edit Page for Editing current Wine data.\
 By clicking Edit Icon on top right side of Wine Info Page, you can open editing page for current wine data.\
 All current wine data is already fetched into the input box so you can only change the data you need. However, due to the timeline for task, it only uploads the first component for the wine. Rest is remained to be fixed later on.\
 `CAUTION : YOU MUST INSTALL MongoDB AND SEED DATA TO MONGODB FIRST! (See below for more info)`
