@@ -29,6 +29,8 @@ All current wine data is already fetched in input box so you can only change the
 ### `Redux State Management`
 For frontend task, it started with using React.js and Redux library for State Management. <br>
 Basically, It used a Actions / Reducers / Screens / Components design pattern. For Redux, it has a store.js for storing all states.<br>
+`For more info for frontend : `\
+[wine-search-app-frontend](https://github.com/proust01/wine-search-app-frontend)
 
 # Getting Started with Wine Search App (Backend)
 
