@@ -34,7 +34,7 @@ Basically, It used a Actions / Reducers / Screens / Components design pattern. F
 
 # Getting Started with Wine Search App (Backend)
 
-### `Clon or Download Repository`
+### `Clone or Download Repository`
 
 ### `npm install`
 
