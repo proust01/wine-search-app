@@ -14,8 +14,8 @@ This app is React / Node.js wine search application.
 ## Front App and Backend Server
 
 ### `Node.js and Express with MVC design pattern`
-For first task, it started with using Node.js and Express libraries. <br>
-Basically, It's using a MVC design pattern. From the repositories, you will see Model, View(Frontend), Controller(routers).<br>
+For the first task, it started with using Node.js and Express libraries. <br>
+Basically, It's using an MVC design pattern. From the repositories, you will see Model, View(Frontend), Controller(routers).<br>
 (For easy implementation for app, frontend is separated from Entire code.)\
 It has one model(productModel) and 2 routers (breakdown, product). They're all designed to deliver expected output from requested API.
 <br>(Ex. /api/breakdown/year/{lotCode} )
@@ -24,8 +24,8 @@ It has one model(productModel) and 2 routers (breakdown, product). They're all d
 ### `Edit Page with MongoDB`
 On top of Task Requirements, I added Edit Page for Edit current Wine data.\
 By clicking Edit Icon on top right side of Wine Info Page, you can open editing page for current wine data.\
-All current wine data is already fetched into the input box so you can only change the data you need. However, due to time line for task, it only uploads first component for the wine. Rest is remained to be fixed later on.\
-`CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`
+All current wine data is already fetched into the input box so you can only change the data you need. However, due to the timeline for task, it only uploads the first component for the wine. Rest is remained to be fixed later on.\
+`CAUTION : YOU MUST INSTALL MongoDB AND SEED DATA TO MONGODB FIRST! (See below for more info)`
 
 ### `Redux State Management`
 For frontend task, it started with using React.js and Redux library for State Management. <br>
@@ -61,7 +61,7 @@ Server is currently fetching a data from data.js so in order to use MongoDB, we 
 ### `Seed Data to MongoDB`
 
 Before Editing wine data from page, You must be installed with MongoDB. [MongoDB Community Edition Download]\
-Once installed, you can seed the data with this api.\
+Once installed, you can seed the data with this API.\
 [http://localhost:5000/products/seed](http://localhost:5000/products/seed)\
 This will store data to MongoDB and Now it can be used in frontend app.
 
