@@ -60,10 +60,10 @@ Server is currently fetching a data from data.js so in order to use MongoDB, we 
 
 ### `Seed Data to MongoDB`
 
-Before Editing page, You must be installed with MongoDB. [MongoDB Community Edition Download]\
+Before Editing wine data from page, You must be installed with MongoDB. [MongoDB Community Edition Download]\
 Once installed, you can seed the data with this api.\
 [http://localhost:5000/products/seed](http://localhost:5000/products/seed)\
-This will store data to MongoDB.\
+This will store data to MongoDB and Now it can be used in frontend app.
 
 ### `Run nodemon server.js`
 
