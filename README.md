@@ -19,9 +19,6 @@ Basically, It's using a MVC design pattern. From the repositories, you will see 
 It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
 <br>(Ex. /api/breakdown/year/{lotCode} )\
 
-### `Redux State Management`
-For first task, it started with using React.js and Redux library for State Management. <br>
-Basically, It used a Actions / Reducers / Screens / Components design pattern. For Redux, it has a store.js for storing all states.<br>
 
 ### `Edit Page with MongoDB`
 On top of Task Requirements, I added Edit Page for Edit current Wind data.\
@@ -29,6 +26,9 @@ By clicking Edit Icon on top of Wine Info Page, you can open editing page for cu
 All current wine data is already fetched in input box so you can only change the data you need. However, due to time line for task, it only uploads first component for the wine. Rest is remained to be fixed later on.\
 `CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
 
+### `Redux State Management`
+For frontend task, it started with using React.js and Redux library for State Management. <br>
+Basically, It used a Actions / Reducers / Screens / Components design pattern. For Redux, it has a store.js for storing all states.<br>
 
 # Getting Started with Wine Search App (Backend)
 
