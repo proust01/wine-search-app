@@ -14,8 +14,7 @@ Basically, It's used a MVC design pattern. from the repositories, you will see M
 It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
 <br>(Ex. /api/breakdown/year/{lotCode} )\
 Most importantly, I made a Edit page and hooked up with MongoDB. You can check it when you click Edit Icon from Product Info Page.\
-CAUTION : YOU MUST SEED DATA TO MONGODB FIRST! (See below for more info)\
-
+`CAUTION : YOU MUST SEED DATA TO MONGODB FIRST! (See below for more info)`\
 
 
 # Getting Started with Wine Search App (Backend)
@@ -27,7 +26,7 @@ CAUTION : YOU MUST SEED DATA TO MONGODB FIRST! (See below for more info)\
 ### `nodemon server.js`
 
 Runs the app in the development mode.\
-Open [http://localhost:5000](http://localhost:5000/products) to view it in the browser.\
+Open [http://localhost:5000/products](http://localhost:5000/products) to view it in the browser.\
 It'll fetch all the wine data.
 
 
@@ -55,30 +54,8 @@ Now it's ready for MongoDB and Editing Page. Try API and Check if it stores data
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can test MongoDB with FrontEnd Web application.\
+Clon or Download Frontend App : \
+[https://github.com/proust01/wine-search-app-frontend](https://github.com/proust01/wine-search-app-frontend)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
