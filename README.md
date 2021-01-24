@@ -11,13 +11,22 @@ This app is React / Node.js wine search application.
       Frontend : React, Redux
       Backend : Node.js, Express, MongoDB, MVC design pattern
       
-## Backend Server
+## Front App and Backend Server
 
+`Node.js and Express with MVC design pattern`
 For first task, it started with using Node.js and Express libraries. <br>
 Basically, It's used a MVC design pattern. from the repositories, you will see Model, View(Frontend), Controller(routers).<br>
 It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
 <br>(Ex. /api/breakdown/year/{lotCode} )\
-Most importantly, I made a Edit page and hooked up with MongoDB. You can check it when you click Edit Icon from Product Info Page.\
+
+`Redux State Management`
+For first task, it started with using React.js and Redux library for State Management. <br>
+Basically, It used a Actions / Reducers / Screens / Components design pattern. For Redux, it has a store.js for storing all states.<br>
+
+`Edit Page with MongoDB`
+On top of Task Requirements, I added Edit Page for Edit current Wind data.\
+By clicking Edit Icon on top of Wine Info Page, you can open editing page for current wine data.\
+All current wine data is already fetched in input box so you can only change the data you need. However, due to time line for task, it only uploads first component for the wine. Rest is remained to be fixed later on.\
 `CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
 
 
@@ -37,6 +46,7 @@ It'll fetch all the wine data.
 ### `test with APIs`
 
 [http://localhost:5000/breakdown/year-variety/{lotCode}](http://localhost:5000/breakdown/year-variety/{lotCode})
+Fetches all Components Key : Value Data from server.
 
 
 ### `Comment out Codes & Back from VS Code for MongoDB`
