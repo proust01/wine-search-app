@@ -1,4 +1,4 @@
-# wine-search-app
+# wine-search-app (BackEnd Server)
 
 This app is React / Node.js wine search application.
 
