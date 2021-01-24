@@ -25,7 +25,7 @@ It has one model(productModel) and 2 routers (breakdown, product). They're all d
 On top of Task Requirements, I added Edit Page for Edit current Wine data.\
 By clicking Edit Icon on top right side of Wine Info Page, you can open editing page for current wine data.\
 All current wine data is already fetched in input box so you can only change the data you need. However, due to time line for task, it only uploads first component for the wine. Rest is remained to be fixed later on.\
-`CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
+`CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`
 
 ### `Redux State Management`
 For frontend task, it started with using React.js and Redux library for State Management. <br>
