@@ -14,7 +14,7 @@ Basically, It's used a MVC design pattern. from the repositories, you will see M
 It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
 <br>(Ex. /api/breakdown/year/{lotCode} )\
 Most importantly, I made a Edit page and hooked up with MongoDB. You can check it when you click Edit Icon from Product Info Page.\
-`CAUTION : YOU MUST SEED DATA TO MONGODB FIRST! (See below for more info)`\
+`CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
 
 
 # Getting Started with Wine Search App (Backend)
@@ -55,7 +55,8 @@ Now it's ready for MongoDB and Editing Page. Try API and Check if it stores data
 ## Learn More
 
 You can test MongoDB with FrontEnd Web application.\
-Clon or Download Frontend App : \
+
+`Clon or Download Frontend App : `\
 [https://github.com/proust01/wine-search-app-frontend](https://github.com/proust01/wine-search-app-frontend)
 
 
