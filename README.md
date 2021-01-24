@@ -12,7 +12,10 @@ This app is React / Node.js wine search application.
 For first task, it started with using Node.js and Express libraries. <br>
 Basically, It's used a MVC design pattern. from the repositories, you will see Model, View(Frontend), Controller(routers).<br>
 It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
-<br>(Ex. /api/breakdown/year/{lotCode} )
+<br>(Ex. /api/breakdown/year/{lotCode} )\
+Most importantly, I made a Edit page and hooked up with MongoDB. You can check it when you click Edit Icon from Product Info Page.\
+CAUTION : YOU MUST SEED DATA TO MONGODB FIRST! (See below for more info)\
+
 
 
 # Getting Started with Wine Search App (Backend)
@@ -21,7 +24,7 @@ It has one model(productModel) and 2 routers (breakdown, product). They all desi
 
 ### `npm install`
 
-### `npm start`
+### `nodemon server.js`
 
 Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000/products) to view it in the browser.\
@@ -30,19 +33,25 @@ It'll fetch all the wine data.
 
 ### `test with APIs`
 
-[running tests](http://localhost:5000/breakdown/year-variety/{lotCode})
+[http://localhost:5000/breakdown/year-variety/{lotCode}](http://localhost:5000/breakdown/year-variety/{lotCode})
 
 
-### `Edit Page with MongoDB`
+### `Comment out Codes & Back from VS Code for MongoDB`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Server is currently fetching a data from data.js so in order to use MongoDB, we need to comment out some code.\
+`routers/productRouter.js` : Line 12 (comment out), Line 13 (back for MongoDB Command)\
+`routers/breakdownRouter.js` : Line 11, 40, 68, 96 (comment out), Line 13, 41, 69, 97 (back for MongoDB Command)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Seed Data to MongoDB`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before Editing page, You must be installed with MongoDB. [MongoDB Community Edition Download]\
+Once installed, you can seed the data with this api.\
+[http://localhost:5000/products/seed](http://localhost:5000/products/seed)\
+This will store data to MongoDB.\
 
+### `Run nodemon server.js`
+
+Now it's ready for MongoDB and Editing Page. Try API and Check if it stores data properly.
 
 ## Learn More
 
