@@ -30,7 +30,7 @@ Most importantly, I made a Edit page and hooked up with MongoDB. You can check i
 ### `nodemon server.js`
 
 Runs the app in the development mode.\
-Open [http://localhost:5000/products](http://localhost:5000/products) to view it in the browser.\
+Open [http://localhost:5000/products](http://localhost:5000/products) to fetch the products data in the browser.\
 It'll fetch all the wine data.
 
 
