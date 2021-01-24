@@ -51,7 +51,7 @@ It'll fetch all the wine data.
 Fetches all Components Key : Value Data from server.
 
 
-### `Comment out Codes & Back from VS Code for MongoDB`
+### `MongoDB Prep : Comment out & Uncomment from VS Code for MongoDB`
 
 Server is currently fetching a data from data.js so in order to use MongoDB, we need to comment out some code.\
 `routers/productRouter.js` : Line 12 (comment out), Line 13 (back for MongoDB Command)\
