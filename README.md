@@ -55,8 +55,8 @@ Fetches all Components Key : Value Data from server.
 ### `MongoDB Prep : Comment out & Uncomment from VS Code for MongoDB`
 
 Server is currently fetching a data from data.js so in order to use MongoDB, we need to comment out some code.\
-`routers/productRouter.js` : Line 12 (comment out), Line 13 (back for MongoDB Command)\
-`routers/breakdownRouter.js` : Line 11, 40, 68, 96 (comment out), Line 13, 41, 69, 97 (back for MongoDB Command)
+`routers/productRouter.js` : Line 12 (comment out), Line 13 (Uncomment for MongoDB Command)\
+`routers/breakdownRouter.js` : Line 11, 40, 68, 96 (comment out), Line 13, 41, 69, 97 (Uncomment for MongoDB Command)
 
 ### `Seed Data to MongoDB`
 
