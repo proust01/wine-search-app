@@ -13,7 +13,7 @@ This app is React / Node.js wine search application.
       
 ## Front App and Backend Server
 
-#`Node.js and Express with MVC design pattern`\
+`#Node.js and Express with MVC design pattern`\
 For first task, it started with using Node.js and Express libraries. <br>
 Basically, It's used a MVC design pattern. from the repositories, you will see Model, View(Frontend), Controller(routers).<br>
 It has one model(productModel) and 2 routers (breakdown, product). They all designed to deliver expected output from requested API.
