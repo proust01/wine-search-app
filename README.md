@@ -18,7 +18,7 @@ For first task, it started with using Node.js and Express libraries. <br>
 Basically, It's using a MVC design pattern. From the repositories, you will see Model, View(Frontend), Controller(routers).<br>
 (For easy implementation for app, frontend is separated from Entire code.)\
 It has one model(productModel) and 2 routers (breakdown, product). They're all designed to deliver expected output from requested API.
-<br>(Ex. /api/breakdown/year/{lotCode} )\
+<br>(Ex. /api/breakdown/year/{lotCode} )
 
 
 ### `Edit Page with MongoDB`
